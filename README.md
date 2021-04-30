@@ -48,4 +48,4 @@ An [AWS Systems Manager State Manager](https://docs.aws.amazon.com/systems-manag
 Standard EC2 metrics along with additional CPU, disk, swap, and memory metrics are sent to CloudWatch Metrics with dimensions **AutoScalingGroupName**, **ImageId**, **InstanceId**, and **InstanceType**.
 
 ### Logs
-The /var/log/secure, /var/log/audit/audit.log, and /var/log/messages log files are sent to CloudWatch Logs under the /<stack name>/bastion/secure, /<stack name>/bastion/audit.log, /<stack name>/bastion/messages log groups. Log messages are sent to a log stream with the EC2 instance ID as the stream name.
+The /var/log/secure, /var/log/audit/audit.log, and /var/log/messages log files are sent to CloudWatch Logs under the /\<stack name\>/bastion/secure, /\<stack name\>/bastion/audit.log, /\<stack name\>/bastion/messages log groups. Log messages are sent to a log stream with the EC2 instance ID as the stream name.
